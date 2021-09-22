@@ -1,0 +1,181 @@
+/*Extra large Device (large desktops)*/
+@media (min-width: 1200px) and (max-width: 1500px) {}
+
+/*LG Device (desktops)*/
+@media (min-width: 992px) and (max-width: 1199px) {
+    .container {
+        width: 970px;
+    }
+
+    /*    about*/
+    .about-contact-wrap ul li {
+        width: 100%;
+    }
+}
+
+/*MD devcie (Tablets)*/
+@media (min-width: 768px) and (max-width: 991px) {
+    .container {
+        width: 750px;
+    }
+
+    /*    logo*/
+    .logo {
+        padding-top: 20px;
+    }
+
+    /*    slider*/
+    .slider-content h2 {
+        font-size: 38px;
+    }
+
+    /*    about*/
+    .about-contact-wrap ul li {
+        width: 100%;
+    }
+
+    /*    team*/
+    .team-img {
+        margin-bottom: 30px;
+    }
+
+    /*    blog*/
+    .single-blog {
+        margin-bottom: 30px;
+    }
+}
+
+
+/*SM Device (Phone)*/
+@media (min-width: 576px) and (max-width:767px) {
+    .container {
+        width: 540px;
+    }
+
+    /*    logo*/
+    .logo {
+        padding-top: 20px;
+    }
+
+    /*    slider*/
+    .slider-content h2 {
+        font-size: 38px;
+    }
+
+    .slider-content h2 span {
+        display: inline-block;
+        width: 100%;
+    }
+
+    .slider-content .typed-cursor {
+        display: none;
+    }
+
+    /*    about*/
+    .about-contact-wrap ul li {
+        width: 100%;
+    }
+
+    /*    promo*/
+    .promo-bg-img {
+        min-height: 530px;
+    }
+
+    .action-btns ul li:nth-child(3) a {
+        margin-top: 20px;
+    }
+
+    /*    portfolio*/
+    .portfolio-menu button {
+        margin-bottom: 15px;
+    }
+
+    /*    team*/
+    .team-img {
+        margin-bottom: 30px;
+    }
+
+    .team-img img {
+        width: 100%;
+    }
+
+    /*    blog*/
+    .single-blog {
+        margin-bottom: 30px;
+    }
+}
+
+/*Extra SM*/
+@media (max-width: 575px) {
+
+    /*    logo*/
+    .logo {
+        padding-top: 20px;
+    }
+
+    /*    slider*/
+    .slider-content{
+        margin-top: 30px;
+    }
+    .slider-content h3 {
+        font-size: 22px;
+        margin-bottom: 10px;
+    }
+
+    .slider-content h2 {
+        font-size: 34px;
+    }
+
+    .slider-content h2 span {
+        display: inline-block;
+        width: 100%;
+    }
+
+    .slider-content .typed-cursor {
+        display: none;
+    }
+
+    /*    about*/
+    .about-contact-wrap ul li {
+        width: 100%;
+    }
+
+    .about-image {
+        margin-top: 30px;
+    }
+
+    /*    promo*/
+    .promo-bg-img {
+        min-height: 630px;
+    }
+
+    .action-btns ul li {
+        list-style: none;
+        display: inline-block;
+        margin-bottom: 10px;
+    }
+
+    .action-btns ul li:not(:last-child) {
+        margin-right: 0;
+    }
+
+    /*    portfolio*/
+    .portfolio-menu button {
+        margin-bottom: 15px;
+    }
+
+    /*    team*/
+    .team-img {
+        margin-bottom: 30px;
+    }
+
+    .team-img img {
+        width: 100%;
+    }
+
+    /*    blog*/
+    .single-blog {
+        margin-bottom: 30px;
+    }
+
+}
